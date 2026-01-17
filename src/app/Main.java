@@ -62,7 +62,7 @@ public class Main {
         System.out.println("Size:");
         System.out.println(array.size());
 
-        Collection<String> collection = new ArrayList<String>();
+        Collection<String> collection = new ArrayList<>();
 
         System.out.println("Is collection equals to customCollection:");
         System.out.println(array.equals(collection));
