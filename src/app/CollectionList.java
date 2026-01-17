@@ -7,7 +7,6 @@ import java.util.Collection;
  * date: 17.01.2026
  */
 public interface CollectionList {
-    String[] getList();
     boolean add(String o);
     boolean add(int index, String o);
     boolean set(int index, String o);

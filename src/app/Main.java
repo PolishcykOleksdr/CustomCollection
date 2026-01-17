@@ -1,5 +1,8 @@
 package app;
 
+import java.util.ArrayList;
+import java.util.Collection;
+
 /**
  * author: user,
  * date: 17.01.2026
@@ -58,5 +61,20 @@ public class Main {
         System.out.println(array);
         System.out.println("Size:");
         System.out.println(array.size());
+
+        Collection<String> collection = new ArrayList<String>();
+
+        System.out.println("Is collection equals to customCollection:");
+        System.out.println(array.equals(collection));
+        System.out.println(array);
+        System.out.println(collection);
+
+        collection.add("aaaa");
+        array.add("aaaa");
+
+        System.out.println("Is collection equals to customCollection:");
+        System.out.println(array.equals(collection));
+        System.out.println(array);
+        System.out.println(collection);
     }
 }

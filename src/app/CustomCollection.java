@@ -20,11 +20,6 @@ public class CustomCollection implements CollectionList {
     }
 
     @Override
-    public String[] getList() {
-        return strArray;
-    }
-
-    @Override
     public boolean add(String o) {
         if(o == null) throw new IllegalArgumentException("Require not null");
 
