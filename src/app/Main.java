@@ -76,5 +76,13 @@ public class Main {
         System.out.println(array.equals(collection));
         System.out.println(array);
         System.out.println(collection);
+
+        System.out.println("Is collection empty");
+        System.out.println(array);
+        System.out.println(array.isEmpty());
+        array.clear();
+        System.out.println("Is collection empty");
+        System.out.println(array);
+        System.out.println(array.isEmpty());
     }
 }

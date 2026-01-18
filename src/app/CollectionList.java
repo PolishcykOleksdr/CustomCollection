@@ -12,6 +12,7 @@ public interface CollectionList {
     boolean set(int index, String o);
     boolean delete(String o);
     boolean deleteAll(String o); //Added extra
+    boolean isEmpty(); //Added extra
     String get(int index);
     boolean contain(String o);
     boolean equals (Collection<String> collection);

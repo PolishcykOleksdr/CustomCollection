@@ -116,7 +116,10 @@ public class CustomCollection implements CollectionList {
 
         return true;
     }
-
+    @Override
+    public boolean isEmpty(){
+        return size == 0;
+    }
     @Override
     public String get(int index) {
         if(index < 0 || index >= size) throw new IllegalArgumentException("Can`t get str by index " + index);
